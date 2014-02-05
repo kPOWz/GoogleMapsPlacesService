@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place details</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="map.css" rel="stylesheet" type="text/css"></link>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>    
+  </head>
+  <body>
+    <h1>Google Maps JS API Playground</h1>
+
+    <h2>Places Service</h2>
+
+
+      <h3>Detail Request</h3>
+      <form>
+        <label for="place-reference">Place reference</label>
+        <textarea autofocus rows="2" cols="75" id="place-reference"></textarea>  
+
+        <fieldset>
+          <legend>Pin behaviors</legend>
+          <input type="checkbox" value="clear" checked>clear pins</input>
+          <input type="checkbox" value="keep">keep pins</input>     
+        </fieldset>
+        <input id="button" type="button" value="Map it">
+      </form>
+
+      <figure id="map-canvas"></figure>
+
+    <script src="map.js"></script>
+    <script src="request.js"></script>
+  </body>
+</html>

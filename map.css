@@ -1,0 +1,14 @@
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0px 20px 0px 5px;
+	padding: 0px
+}
+
+form{
+	margin-bottom: 10px;
+}
+
+#place-reference{
+	width: 	100%;
+	box-sizing: border-box;
+}
